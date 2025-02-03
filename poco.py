@@ -937,7 +937,7 @@ def approval():
   uuid = str(os.geteuid()) + str(os.getlogin())
   id = "4h".join(uuid)
   try:
-    httpCaht = requests.get('https://github.com/xive404/XIXEMON/blob/main/Poco.txt').text
+    httpCaht = requests.get('https://github.com/Fahad123444444/Clone/blob/main/Poco.txt').text
     if id in httpCaht:
       print("\33[1;32mYour Token is Successfully Approved")
       #print('\033[1;93mYour Token is Successfully Approved ')
